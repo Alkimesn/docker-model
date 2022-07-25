@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<ModelComponentBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="ModelComponentComplexAND">
+  <children>
+    <ModelComponentBase xsi:type="ModelComponentComplexOR">
+      <children>
+        <ModelComponentBase xsi:type="ModelComponentPrimitive">
+          <Name>1-1</Name>
+          <failType>PROBABILITY</failType>
+          <restoreType>PROBABILITY</restoreType>
+          <failTime>10</failTime>
+          <restoreTime>0.5</restoreTime>
+        </ModelComponentBase>
+        <ModelComponentBase xsi:type="ModelComponentPrimitive">
+          <Name>1-2</Name>
+          <failType>PROBABILITY</failType>
+          <restoreType>PROBABILITY</restoreType>
+          <failTime>10</failTime>
+          <restoreTime>0.5</restoreTime>
+        </ModelComponentBase>
+      </children>
+    </ModelComponentBase>
+    <ModelComponentBase xsi:type="ModelComponentComplexOR">
+      <children>
+        <ModelComponentBase xsi:type="ModelComponentPrimitive">
+          <Name>2-1</Name>
+          <failType>PROBABILITY</failType>
+          <restoreType>PROBABILITY</restoreType>
+          <failTime>5</failTime>
+          <restoreTime>1</restoreTime>
+        </ModelComponentBase>
+        <ModelComponentBase xsi:type="ModelComponentPrimitive">
+          <Name>2-2</Name>
+          <failType>PROBABILITY</failType>
+          <restoreType>PROBABILITY</restoreType>
+          <failTime>5</failTime>
+          <restoreTime>1</restoreTime>
+        </ModelComponentBase>
+        <ModelComponentBase xsi:type="ModelComponentPrimitive">
+          <Name>2-3</Name>
+          <failType>PROBABILITY</failType>
+          <restoreType>PROBABILITY</restoreType>
+          <failTime>5</failTime>
+          <restoreTime>1</restoreTime>
+        </ModelComponentBase>
+      </children>
+    </ModelComponentBase>
+  </children>
+</ModelComponentBase>
